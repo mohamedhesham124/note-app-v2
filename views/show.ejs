@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Notes - Sticky Notes</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-sticky-note"></i> View All Notes</h1>
+            <nav>
+                <a href="/" class="nav-button">Add Note</a>
+                <a href="/showpage" class="nav-button active">View Notes</a>
+            </nav>
+        </header>
+
+        <div class="notes-container">
+            <% if (notes.length > 0) { %>
+                <div class="notes-grid">
+                    <% notes.forEach(note => { %>
+                        <div class="note">
+                            <h3 class="note-title"><%= note.title %></h3>
+                            <p class="note-content"><%= note.content %></p>
+                            
+                        </div>
+                    <% }); %>
+                </div>
+            <% } else { %>
+                <div class="empty-message">
+                    <i class="fas fa-inbox"></i>
+                    <h3>No notes yet</h3>
+                    <p>Add your first note to get started!</p>
+                </div>
+
+            <% } %>
+        </div>
+    </div>
+
+</body>
+</html>
