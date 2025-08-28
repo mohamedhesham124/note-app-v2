@@ -1,11 +1,6 @@
 Sticky Notes Application
 A simple and elegant web application for creating and managing sticky notes, built with Node.js, Express, MongoDB, and EJS.
 
-https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
-https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
-https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
-https://img.shields.io/badge/EJS-8A2BE2?style=for-the-badge
-
 Features
 Create Notes: Add new sticky notes with titles and content
 
