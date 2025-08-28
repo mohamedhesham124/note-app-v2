@@ -11,16 +11,9 @@ Create Notes: Add new sticky notes with titles and content
 
 View All Notes: Browse all your notes in a beautiful grid layout
 
-Delete Notes: Remove notes you no longer need
-
 Responsive Design: Works seamlessly on desktop and mobile devices
 
 MongoDB Integration: All notes are stored in a MongoDB database for persistence
-
-Live Demo
-Check out the live demo: Sticky Notes App
-
-https://via.placeholder.com/800x400?text=Sticky+Notes+Application+Screenshot
 
 Technology Stack
 Backend: Node.js, Express.js
@@ -41,47 +34,13 @@ MongoDB (local installation or MongoDB Atlas account)
 
 npm or yarn package manager
 
-Setup Instructions
-Clone the repository
-
-bash
-git clone https://github.com/your-username/sticky-notes-app.git
-cd sticky-notes-app
-Install dependencies
-
-bash
-npm install
-Set up environment variables
-
-bash
-cp .env.example .env
-Edit the .env file with your configuration:
-
-text
+some options
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/stickynotesdb
 NODE_ENV=development
-Start MongoDB
-
-If using local MongoDB, make sure the MongoDB service is running
-
-If using MongoDB Atlas, update the connection string in your .env file
-
-Start the application
-
-bash
-npm start
-For development with auto-restart:
-
-bash
-npm run dev
-Open your browser and navigate to:
-
-text
-http://localhost:3000
 
 Project Structure
-text
+
 sticky-notes-app/
 ├── app.js                 # Main application file
 ├── package.json           # Project dependencies and scripts
