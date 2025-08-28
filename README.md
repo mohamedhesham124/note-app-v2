@@ -21,13 +21,6 @@ A simple and elegant web application for creating and managing sticky notes, bui
 
 ---
 
-## 🌐 Live Demo
-Check out the live demo: **[Sticky Notes App](#)**  
-
-![App Screenshot](https://via.placeholder.com/800x400?text=Sticky+Notes+Application+Screenshot)
-
----
-
 ## ⚙️ Installation
 
 ### ✅ Prerequisites
@@ -41,3 +34,9 @@ Check out the live demo: **[Sticky Notes App](#)**
    ```bash
    git clone https://github.com/your-username/sticky-notes-app.git
    cd sticky-notes-app
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+
