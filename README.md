@@ -15,7 +15,6 @@ A simple and elegant web application for creating and managing sticky notes, bui
 ## ✨ Features
 - ➕ **Create Notes**: Add new sticky notes with titles and content  
 - 📋 **View All Notes**: Browse all your notes in a beautiful grid layout  
-- ❌ **Delete Notes**: Remove notes you no longer need  
 - 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices  
 - 💾 **MongoDB Integration**: All notes are stored in a MongoDB database for persistence  
 
